@@ -17,21 +17,20 @@ user_array.sort()
 # def centre_element_array(n: list):
     # if len(n) % 2 == 0:
 
-
 calculating_array = user_array
 #print(user_array)
 #print(calculating_array)
 
 while (target_value != calculating_array[((len(calculating_array)) // 2)]) and (len(calculating_array) != 1):
     centre_element = calculating_array[((len(calculating_array)) // 2)]
-    print(len(calculating_array), "lennh")
-    print(centre_element)
-    print(calculating_array)
+    #print(len(calculating_array), "lennh")
+    #print(centre_element)
+    #print(calculating_array)
     if centre_element < target_value:
         calculating_array = calculating_array[((len(calculating_array)) // 2):]
     else:
         calculating_array = calculating_array[:((len(calculating_array)) // 2)]
-        print(calculating_array)
+        #print(calculating_array)
 
 calculating_value = calculating_array[(len(calculating_array)) // 2]
 
@@ -43,4 +42,3 @@ else:
 
 #print(user_array)
 #print(calculating_array)
-# print(user_array)
